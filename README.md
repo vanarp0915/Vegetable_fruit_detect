@@ -12,6 +12,7 @@ git clone https://github.com/vanarp0915/Vegetable_fruit_detect.git
 ```
 
 ### Step:2
+Enter inside the folder
 ```
 cd Vegetable_fruit_detect.git
 ```
@@ -23,7 +24,7 @@ pip install -r requirement.txt
 ```
 
 ### Step:4
-*Collecting the dataset
+* Collecting the dataset
 In this process you need to run image_collecting.py to collect the image of respective fruit or vegetables.
 
 *Eg
