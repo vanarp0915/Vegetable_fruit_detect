@@ -35,7 +35,7 @@ python image_collecting.py apple 50
 
 Train the dataset
 ```
-python train.py
+python train_model.py
 ```
 At the end of the excecusion a FandV.h5 file will be created. Which we will be having the weights.
 
