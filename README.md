@@ -29,7 +29,7 @@ In this process you need to run image_collecting.py to collect the image of resp
 
 *Eg
 ```
-python3 image_collecting.py apple 50
+python image_collecting.py apple 50
 ```
 ### Step:5
 
@@ -37,11 +37,11 @@ Train the dataset
 ```
 python train.py
 ```
-At the end of the excecusion a FV.h5 file will be created. Which we will be having the weights.
+At the end of the excecusion a FandV.h5 file will be created. Which we will be having the weights.
 
 ### Step:6
 Run the classifcation code
 ```
-python Fruits_Vegetable_Classification.py
+python run.py
 ```
 
