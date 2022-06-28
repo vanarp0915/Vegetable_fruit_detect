@@ -12,8 +12,8 @@ os.mkdir(path)
 count = int(sys.argv[2])
 i,start=0,False
 print(image_path)
-start_point = (5,5)
-end_point=(245,245)
+start_point = (245,125)
+end_point=(485,365)
 while(True):
     ret,frame = videoCaptureObject.read()
     text = "Collecting image for {} :{}".format(next_path,i)
@@ -23,7 +23,7 @@ while(True):
         if i == count:
             break
         else:
-            cropped = frame[5:245, 5:245]
+            cropped = frame[125:365, 245:485]
             save_path = os.path.join(path, '{}.jpg'.format(i+1))
             cv2.imwrite(save_path,cropped)
             print("its happening")
